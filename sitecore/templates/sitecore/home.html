@@ -1,0 +1,294 @@
+{% extends 'base.html' %} {% load static %} {% block content %}
+<section class="hero">
+  <div class="hero-content">
+    <h1>Do digital ao real, com precisão 3D</h1>
+    <div class="hero-buttons">
+      <a href="#orcamento" class="btn">Solicitar Orçamento</a>
+      <a href="#portifolio" class="btn btn-secondary">Ver Portfólio</a>
+      <a href="#contato" class="btn btn-outline">Fale conosco</a>
+    </div>
+  </div>
+</section>
+
+<section class="destaques">
+  <div class="destaque-item">
+    <div class="icone-circulo">
+      <img
+        src="/static/img/entregas.png"
+        alt="Ícone de entregas"
+        width="200px"
+        height="200px"
+      />
+    </div>
+    <h4>Entregas Personalizadas</h4>
+    <p>Projetos feitos sob medida para suas ideias.</p>
+  </div>
+  <div class="destaque-item">
+    <div class="icone-circulo">
+      <img
+        src="/static/img/impressao.png"
+        alt="Ícone de entregas"
+        width="200px"
+        height="200px"
+      />
+    </div>
+    <h4>Impressões sob Demanda</h4>
+    <p>Você envia, a gente imprime com precisão.</p>
+  </div>
+
+  <div class="destaque-item">
+    <div class="icone-circulo">
+      <img
+        src="/static/img/suporte.png"
+        alt="Ícone de entregas"
+        width="200px"
+        height="200px"
+      />
+    </div>
+    <h4>Suporte Especializado</h4>
+    <p>Acompanhamento técnico em todas as etapas.</p>
+  </div>
+</section>
+
+<section class="o-que-imprimimos">
+  <h2>O que podemos imprimir?</h2>
+  <p>Atendemos diversos segmentos com impressões 3D so medida:</p>
+
+  <ul class="lista-servicos">
+    <li>Protótipos funcionais e técnicos</li>
+    <li>Peças de reposição personalizadas</li>
+    <li>Miniaturas, chaveiros e brinquedos</li>
+    <li>itens de decoração, suportes e utilidades domésticas</li>
+    <li>Ferramentas sob demanda</li>
+    <li>Projetos acadêmicos e educacionais</li>
+  </ul>
+</section>
+
+<section class="nosso-processo">
+  <h2>Como funciona o nosso processo</h2>
+  <p>Da sua ideia até a peça pronta em suas mãos:</p>
+
+  <div class="etapas-processo">
+    <div class="etapa">
+      <span class="numero">1</span>
+      <h4>Você envia o modelo</h4>
+      <p>Nos envie seu arquivo 3D (STL, OBJ,etc) ou descreva sua ideia.</p>
+    </div>
+    <div class="etapa">
+      <span class="numero">2</span>
+      <h4>Análise e ajustes</h4>
+      <p>Verificamos o modelo e fazemos ajustes, se necessário.</p>
+    </div>
+    <div class="etapa">
+      <span class="numero">3</span>
+      <h4>Impressão com precisão</h4>
+      <p>Imprimimos com materiais de qualidade e alta definição.</p>
+    </div>
+    <div class="etapa">
+      <span class="numero">4</span>
+      <h4>Entrega rápida</h4>
+      <p>Você recebe sua peça em casa, com todo o cuidado que ela merece.</p>
+    </div>
+  </div>
+</section>
+
+<section class="diferenciais">
+  <h2>Por que escolher a JL3D?</h2>
+  <p>
+    Oferecemos mais do que impressão — oferecemos confiança, agilidade e
+    qualidade.
+  </p>
+
+  <div class="lista-diferenciais">
+    <div class="item-diferencial">
+      <i class="fas fa-shipping-fast"></i>
+      <h4>Entrega rápida</h4>
+      <p>
+        Receba seu projeto em até 3 dias úteis, com envio para todo o Brasil.
+      </p>
+    </div>
+    <div class="item-diferencial">
+      <i class="fas fa-cogs"></i>
+      <h4>Peças sob medida</h4>
+      <p>Adaptamos cada impressão às suas necessidades com extrema precisão.</p>
+    </div>
+    <div class="item-diferencial">
+      <i class="fas fa-headset"></i>
+      <h4>Atendimento humano</h4>
+      <p>
+        Fale diretamente com quem entende do assunto. Atendimento rápido por
+        WhatsApp.
+      </p>
+    </div>
+    <div class="item-diferencial">
+      <i class="fas fa-star"></i>
+      <h4>Qualidade garantida</h4>
+      <p>
+        Usamos os melhores filamentos e revisamos cada peça antes da entrega.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="portfolio">
+  <h2>Nosso Portfólio</h2>
+  <p>Alguns dos projetos já impressos com precisão e qualidade:</p>
+
+  <div class="carrossel-container">
+    <button class="btn-prev">&#10094;</button>
+    <div class="carrossel">
+      <img src="/static/img/3.jpeg" alt="Peça impressa 1" />
+      <img src="/static/img/suporte.png" alt="Peça impressa 1" />
+      <img src="/static/img/entregas.png" alt="Peça impressa 1" />
+      <img src="/static/img/impressao.png" alt="Peça impressa 1" />
+    </div>
+    <button class="btn-next">&#10095;</button>
+  </div>
+</section>
+
+<section class="depoimentos">
+  <h2>O que dizem nossos clientes</h2>
+  <div class="cards-depoimentos">
+    <div class="depoimento-card">
+      <span class="aspas">❝</span>
+      <p>Atendimento rápido e impressão impecável! Recomendo muito.</p>
+      <h4>— Lucas Menezes</h4>
+    </div>
+    <div class="depoimento-card">
+      <span class="aspas">❝</span>
+      <p>Fiquei impressionada com a qualidade. Tudo perfeito!</p>
+      <h4>— Renata Silva</h4>
+    </div>
+    <div class="depoimento-card">
+      <span class="aspas">❝</span>
+      <p>Precisava de uma peça urgente e eles entregaram no prazo.</p>
+      <h4>— João Andrade</h4>
+    </div>
+  </div>
+</section>
+
+<section class="materiais">
+  <h2>Materiais Disponíveis</h2>
+  <div class="materiais-blocos">
+    <div class="material-bloco pla">
+      <img
+        src="https://m.media-amazon.com/images/I/813DTVIFSjL.jpg"
+        alt="Filamento PLA"
+      />
+      <h4>PLA</h4>
+      <p>Leve, rígido, biodegradável. Ideal para protótipos e decoração.</p>
+    </div>
+    <div class="material-bloco abs">
+      <img
+        src="https://m.media-amazon.com/images/I/610YEAg3n4L._AC_UF894%2C1000_QL80_.jpg"
+        alt="Filamento ABS"
+      />
+      <h4>ABS</h4>
+      <p>Alta resistência térmica e mecânica. Bom para peças funcionais.</p>
+    </div>
+    <div class="material-bloco petg">
+      <img
+        src="https://m.media-amazon.com/images/I/81V%2BbOAdndL._AC_UF894%2C1000_QL80_.jpg"
+        alt="Filamento PETG"
+      />
+      <h4>PETG</h4>
+      <p>Flexível, resistente e durável. Excelente para engenharia.</p>
+    </div>
+    <div class="material-bloco tpu">
+      <img
+        src="https://img.waimaoniu.net/3203/3203-202404161641215248.jpg"
+        alt="Filamento TPU"
+      />
+      <h4>TPU</h4>
+      <p>Material flexível, ideal para peças que exigem elasticidade.</p>
+    </div>
+  </div>
+</section>
+
+<section class="faq">
+  <h2>Perguntas Frequentes</h2>
+
+  <div class="faq-item">
+    <button class="faq-pergunta">
+      Posso imprimir mesmo sem ter o modelo 3D?
+    </button>
+    <div class="faq-resposta">
+      <p>
+        Sim! Podemos criar o modelo para você com base em uma ideia, foto ou
+        esboço.
+      </p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-pergunta">Qual o prazo de entrega?</button>
+    <div class="faq-resposta">
+      <p>
+        O prazo varia de acordo com o tamanho e complexidade da peça, mas
+        geralmente de 1 a 5 dias úteis.
+      </p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-pergunta">Quais materiais posso escolher?</button>
+    <div class="faq-resposta">
+      <p>Oferecemos PLA, ABS, PETG e TPU, em diversas cores e acabamentos.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-pergunta">Vocês entregam em outras cidades?</button>
+    <div class="faq-resposta">
+      <p>Sim! Enviamos para todo o Brasil via transportadora ou Correios.</p>
+    </div>
+  </div>
+</section>
+
+<script>
+  const carrossel = document.querySelector(".carrossel");
+  const imgs = document.querySelectorAll(".carrossel img");
+  const total = imgs.length;
+  let index = 0;
+
+  document.querySelector(".btn-next").addEventListener("click", () => {
+    index = (index + 1) % total;
+    carrossel.style.transform = `translateX(-${index * 100}%)`;
+  });
+
+  document.querySelector(".btn-prev").addEventListener("click", () => {
+    index = (index - 1 + total) % total;
+    carrossel.style.transform = `translateX(-${index * 100}%)`;
+  });
+</script>
+
+<script>
+  const perguntas = document.querySelectorAll(".faq-pergunta");
+
+  perguntas.forEach((pergunta) => {
+    pergunta.addEventListener("click", () => {
+      const resposta = pergunta.nextElementSibling;
+
+      // Fecha todos antes de abrir outro
+      document.querySelectorAll(".faq-resposta").forEach((el) => {
+        if (el !== resposta) {
+          el.style.maxHeight = null;
+          el.style.paddingTop = 0;
+          el.style.paddingBottom = 0;
+        }
+      });
+
+      if (resposta.style.maxHeight) {
+        resposta.style.maxHeight = null;
+        resposta.style.paddingTop = 0;
+        resposta.style.paddingBottom = 0;
+      } else {
+        resposta.style.maxHeight = resposta.scrollHeight + "px";
+        resposta.style.paddingTop = "10px";
+        resposta.style.paddingBottom = "15px";
+      }
+    });
+  });
+</script>
+
+{% endblock %}
